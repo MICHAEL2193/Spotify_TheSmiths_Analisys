@@ -1,0 +1,18 @@
+
+1. Se cargó el dataset de Spotify tracks_features.csv.
+2. Se filtraron las canciones del artista The Smiths usando coincidencia exacta en la columna artists.
+3. Se evitó usar str.contains porque generaba falsos positivos como The Smithsonian Chamber Players.
+4. Se compararon los álbumes encontrados en el dataset con la discografía oficial del artista.
+5. Se definieron como álbumes de estudio oficiales:
+   The Smiths, Meat Is Murder, The Queen Is Dead y Strangeways, Here We Come.
+6. Tras aplicar el filtro, el dataset solo conservó canciones del álbum:
+   Strangeways, Here We Come.
+   Esto indica que el dataset utilizado no contiene canciones originales de los otros
+   álbumes de estudio de The Smiths.
+7. Como tres álbumes quedan sin canciones, los gráficos principales se realizaron por canción,
+   no por álbum, para aportar más valor analítico.
+8. Se generaron gráficos de energy, valence y energy vs valence por canción.
+9. Se intentó obtener letras de The Smiths usando lyrics.ovh, pero la API no devolvió resultados.
+10. Para cumplir el apartado de análisis de letras, se utilizó un conjunto alternativo de canciones
+    de varios artistas, tal como permite el enunciado.
+11. Se generaron gráficos de frecuencia de palabras y una nube de palabras a partir de las letras recuperadas.
