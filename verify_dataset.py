@@ -252,13 +252,12 @@ else:
 
 
 # ------------------------------------------------------------
-# 7. Conclusión orientativa
+# 7. Conclusión
 # ------------------------------------------------------------
 
-print_section("7. Conclusión orientativa")
+print_section("7. Conclusión")
 
 print("""
-Revisa especialmente estas secciones:
 
 - Sección 3:
   muestra qué álbumes aparecen cuando el artista es exactamente The Smiths.
