@@ -146,6 +146,9 @@ app/streamlit_app.py
 
 La app permite explorar los resultados de forma interactiva.
 
+URL de la aplicación:
+https://5mbkvc4sqvcmbqokwmnsou.streamlit.app/
+
 ## 6. Comentario
 
 En una primera aproximación se utilizó una búsqueda textual con `str.contains("The Smiths")`, pero esta técnica generaba falsos positivos, ya que también coincidía con artistas como `The Smithsonian Chamber Players`. Por este motivo, se mejoró el filtrado transformando la columna `artists` en una lista y comprobando que el artista coincidiera exactamente con `The Smiths`.
